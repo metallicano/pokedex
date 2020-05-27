@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/sandstone/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="/" id="inicio">
+            <img src="/src/img/pokeball.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            Pokedex
+          </a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="caja_texto">
+          <button class="btn btn-outline-warning my-2 my-sm-0" type="submit" id="enviar"><i class="fa fa-search "></i></button>
+        </form>
+      </nav>
+
+      <div class="container p-2">
+        <input type="submit" value="back" id="back" class="btn btn-primary">
+        <input type="submit" value="next" id="next" class="btn btn-primary">
+        
+      </div>
+
+     
+    <div class="container p-2">
+        <div class="row row-cols-1 row-cols-md-4" id="marco">
+
+        </div>
+    </div>    
+   
+    <script>
+      function saludar(){
+        console.log('saludar')
+      }
+
+      saludar()
+    </script>
+   
+</body>
+</html>
